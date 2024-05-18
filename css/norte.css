@@ -1,0 +1,23 @@
+.titulo{
+    background-image: url(/img/imagenEncambezado/norte.jpg);
+    background-size: cover;
+}
+.contenedor{
+    background-image: url(/img/imagenEncambezado/norte2.webp);
+    display: cover;
+}
+summary{
+    background-color: rgb(66, 204, 216);
+}
+.subtitulo-gastronomia{
+    color: white; 
+    text-shadow: 1px 1px 1px rgb(4, 4, 4);  
+}
+.subtitulo,.limite-area p{
+    text-shadow: 1px 1px 1px white;  
+    color: black
+}
+.descripcion{
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}

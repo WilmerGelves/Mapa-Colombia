@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(249, 252, 255);
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+    background-size: cover;   
+    border: 2px solid rgb(37, 23, 23);
+    background-image: url(/img/amazonas-back.jpg);
+    background-size: cover;
+}
+.titulo{
+    text-align: center;
+    padding: 40px;
+    color: white;
+    text-shadow: 4px 1px 2px black;
+    background-image: url(/img/imagenEncambezado/amazonas.jpg);
+    background-size:auto;
+}
+.limite-area{
+    margin: 20px 0 10px 50px;
+}
+.limite-area p{
+    font-weight: bold ;
+}
+section{
+    margin: 10px 50px;
+}
+.subtitulo{
+    margin-bottom: 20px;
+}
+.enlaces{
+    margin: 0 0 20px 0;
+}
+details{
+    max-width: 70%;
+}
+summary{
+    margin: 3px;
+    background-color: rgb(194, 247, 194);
+    max-width: 50%;
+    border-radius: 30px;
+    padding: 10px;
+}
+.descripcion{
+    margin-bottom: 10px;
+    text-shadow: 1px 2px 5px white;
+}
+
+.gastronomia{
+    margin: 20px 50px;
+    display: flex;
+}
+
+.slider{
+    width: 500px;
+    border-radius: 10px;
+}
+.subtitulo-gastronomia{
+    margin: 0px 50px; 
+    text-align: center;
+    text-shadow: 1px 2px 5px white;
+    padding: 5px;
+}
+
+.gastronomia{
+    justify-content: center;
+}
+.galeria{
+    display: flex; 
+}
+
+
+.plato{
+    display: inline-block;
+    width: 220px;
+    height: 200px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+
+.inferior{
+    text-align:center;
+}
+
+footer{
+    background-color: rgb(18, 17, 17);
+    color: white;
+    padding: 20px;
+}

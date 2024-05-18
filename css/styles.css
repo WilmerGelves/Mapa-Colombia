@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(249, 252, 255);
+}
+.contenedor{
+    width: 80%;
+    background-image: url(/img/image.png);
+    margin: auto;
+    background-size: cover;   
+    border: 2px solid rgb(37, 23, 23);
+}
+
+.inferior{
+    text-align:center;
+    
+}
+.titulo{
+    text-align: right;
+    padding: 40px;
+    color: white;
+    margin-right: 150px;
+    text-shadow: 4px 1px 2px black;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+footer{
+    background-color: rgb(18, 17, 17);
+    color: white;
+    padding: 20px;
+}

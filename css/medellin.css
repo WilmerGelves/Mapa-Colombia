@@ -1,0 +1,15 @@
+.titulo{
+    background-image: url(/img/medellin.jpg);
+    background-size: cover;
+}
+.contenedor{
+    background-image: url(/img/imagenEncambezado/medellin2.png);
+    display: cover;
+}
+summary{
+    background-color: rgb(145, 139, 174);
+}
+.subtitulo-gastronomia{
+    color: white; 
+    text-shadow: 5px 5px 5px rgb(4, 4, 4);  
+}

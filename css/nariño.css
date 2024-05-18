@@ -1,0 +1,23 @@
+.titulo{
+    background-image: url(/img/imagenEncambezado/pasto2.jpg);
+    background-size: cover;
+}
+.contenedor{
+    background-image: url(/img/nariño.jpg);
+    display: cover;
+}
+summary{
+    background-color: rgb(113, 121, 241);
+}
+.subtitulo-gastronomia{
+    color: white; 
+    text-shadow: 1px 1px 1px rgb(4, 4, 4);  
+}
+.subtitulo,.limite-area p{
+    text-shadow: 1px 1px 1px rgb(4, 4, 4);  
+    color: white;
+}
+.descripcion{
+    color: white;
+    text-shadow: 1px 2px 1px rgb(7, 7, 7);
+}
